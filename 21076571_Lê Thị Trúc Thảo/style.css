@@ -1,0 +1,237 @@
+/* BAI 1 */
+.container h2{
+    margin-left: 20px;
+    color:#e80b0b
+}
+.logo > img {
+    height: 150px;
+    width: auto;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+}
+.text-yody {
+    text-align: center;
+    font-size: 25px;
+}
+ .text-yody strong{
+    color:rgb(15, 238, 115)
+}
+.class-yody {
+    text-align: center;
+}
+.class-yody > button {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 200px;
+    font-size: 15px;
+    color: rgb(1, 5, 9);
+    margin-top: 20px;
+    margin-left: 15px;
+    height:60px;
+    width:auto;
+}
+.class-yody > button:hover {
+    background-color: #a7b110;
+    color: white;
+    border: none;
+}
+.class-yody .fashion .nam {
+    font-size: 29px;
+    color:#3abcdf;
+    vertical-align: middle;
+}
+.class-yody .fashion .nu {
+  font-size: 30px;
+  color:rgb(232, 109, 129);
+  vertical-align: middle;
+}
+/* Bài 2 */
+.Bai2 {
+    margin-left: 250px;
+}
+.Bai2 h3{
+  font-size: 25px;
+}
+.tag button {
+    background-color: #247e18; 
+    color: white; 
+    padding: 10px 20px; /* Khoảng cách giữa nội dung và viền của nút */
+    border: none; 
+    border-radius: 5px; /* Bo tròn góc */
+    cursor: pointer; /* Biến con trỏ thành bàn tay khi di chuột qua */
+  }
+  
+.tag  button:hover {
+    background-color: #51bebe; 
+  }
+/* Bài 3 */
+.TraGung {
+    margin-left: 250px;
+    margin-right: 150px;
+}
+.TraGung img{
+    height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.TraGung a {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #2fbae1;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    }
+.TraGung a:hover {
+    background-color: #87e25f;
+}
+/*BT4 */
+.logo-email {
+    text-align: center;
+    padding: 0;
+  }
+  .logo-email .icon-email{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(12, 143, 225);
+    font-size: 40px;
+  }
+  .email {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .text-email h1 {
+    font-size: 35px ;
+    margin-bottom: 5px;
+  }
+  .text-email p {
+    font-size: 17px;
+    color: #080808;
+  }
+  .send-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+   
+  }
+  .send-email input[type="email"] {
+    padding: 0.5rem;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 320px;
+  }
+  .send-email input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px rgba(0, 123, 255, 0.5);
+  }
+  .email-button {
+    padding: 0.5rem 2rem;
+    font-size: 15px;
+    background-color: #2828f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px
+  }
+  .email-button:hover {
+    background-color: #5bc4ed;
+  }
+
+/* Bài 5 */
+.coffee{
+    position: relative;
+    text-align: center;
+}
+.coffee img {
+    height: 350px;
+    width: 900px;
+}
+.coffee h1{
+    text-align: center;
+}
+.text-coffee {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.text-coffee h1{
+    font-size: 25px;
+}
+.text-coffee p {
+    margin-top: 20px;
+    font-size: 30 px;
+}
+  .text-coffee a {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #f71313;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    }
+.text-coffee a:hover {
+    background-color: #555;
+}
+/* Bài 6 */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwtKcmJ9TB44b-5rA1c-z8YjfVbP6UCO8ef0pd-91kCmQDvmsomPixTfC-HNL93R3AXDo&usqp=CAU);
+    padding: 20px;
+  }
+  .footer-img {
+    height: 1000px;
+    width: 900px;
+  }
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-column .icon-student{
+    color: rgb(9, 255, 26);
+    font-size: 40px;
+  }
+  .footer-column .icon-student-job{
+    color: rgb(218, 54, 255);
+    font-size: 40px;
+  }
+  .footer-column .icon-baibaokhoahoc{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+  }
+  .footer-column .icon-giaithuongquocte{
+    color: rgb(0, 41, 177);
+    font-size: 40px;
+  }
+  .footer-text {
+    color: #fcff2e;
+  }
+  
+  .footer-number {
+    color: #ffffff;
+    font-size: 1.5em;
+  
+  }
+  
